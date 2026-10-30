@@ -1,0 +1,6 @@
+{
+  "name": "SQL Quest: The Relational Realm",
+  "description": "A cozy pastel pixel-art RPG where you cast SQL spells to complete quests and explore a cute 3D realm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

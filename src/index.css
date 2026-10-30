@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Prompt', 'Fredoka', system-ui, -apple-system, sans-serif;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .font-pixel {
+    font-family: 'Pixelify Sans', cursive, monospace;
+  }
+
+  .font-prompt {
+    font-family: 'Prompt', sans-serif;
+  }
+}
+
+/* Custom cozy pastel scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF9F5;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FADBD8;
+  border-radius: 8px;
+  border: 2px solid #FFF9F5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F5B7B1;
+}
+
+/* Soft glowing pulse for spellbook and active elements without harsh blinking */
+.spell-glow {
+  box-shadow: 0 0 15px rgba(245, 183, 177, 0.6);
+}
+
+.magic-border {
+  border: 3px solid #5C4033;
+  box-shadow: 3px 3px 0px #5C4033;
+}
+
+.magic-border-sm {
+  border: 2px solid #5C4033;
+  box-shadow: 2px 2px 0px #5C4033;
+}
+
+.magic-border-pressed:active {
+  box-shadow: 0px 0px 0px #5C4033;
+  transform: translate(2px, 2px);
+}
